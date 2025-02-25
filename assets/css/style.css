@@ -56,7 +56,7 @@ body {
 }
 .interviews_section .interview_card:hover, .card:hover{
     color: #252628;
-    background: rgb(9, 219, 149);
+    background: rgba(124, 240, 201, 0.715);
 }
 
 .contact_section .main_container{
@@ -70,6 +70,14 @@ body {
 .contact_section .main_container span{
     color: rgba(192, 38, 38, 0.401);
     margin-right: .2rem;
+}
+.contact-card {
+  max-width: 350px;
+  min-height: 250px; /* Set a minimum height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 footer {
     background-color: #343a40;
