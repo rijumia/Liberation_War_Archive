@@ -1,0 +1,78 @@
+body {
+    scroll-behavior: smooth;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fabe;
+  }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.hero {
+    background: url(../img/banner.svg) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.section_heading{
+    text-align: center;
+    letter-spacing: .2rem;
+}
+.featured_section .featured_card{
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 1rem;
+    transition: .4s;
+}
+.featured_section .featured_card:hover{
+    color: #252628;
+    background: rgb(9, 219, 149);
+}
+.section {
+    padding: 50px 20px;
+  }
+.gallery img {
+    transition: transform 0.3s ease;
+  }
+.gallery img:hover {
+    transform: scale(1.1);
+  }
+.gallery .card{
+  overflow: hidden;
+}
+
+.interviews_section .interview_card{
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    padding: 1rem;
+    transition: .4s;
+}
+.interviews_section .interview_card:hover, .card:hover{
+    color: #252628;
+    background: rgb(9, 219, 149);
+}
+
+.contact_section .main_container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffffc9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact_section .main_container span{
+    color: rgba(192, 38, 38, 0.401);
+    margin-right: .2rem;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
