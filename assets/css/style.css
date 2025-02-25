@@ -12,7 +12,8 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .hero {
-    background: url(../img/banner.svg) no-repeat center center/cover;
+    background: #252628bf url(../img/victory_banner.jpg) no-repeat center center/cover;
+    background-blend-mode: multiply;
     color: white;
     text-align: center;
     height: 90vh;
