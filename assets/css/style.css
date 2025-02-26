@@ -95,7 +95,7 @@ body {
   align-items: center;
 }
 .footer_section {
-    background: #ef4e4e9b url(../img/hero.jpg) no-repeat center center/cover;
+    background: #ef4e4ed5 url(../img/hero.jpg) no-repeat center center/cover;
     background-blend-mode: multiply;
     color: white;
     /* text-align: center; */
