@@ -21,7 +21,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
+
+.inner_section{
+  background: #1213159c url(../img/card2.jpg) no-repeat center center/cover;
+  background-blend-mode: multiply;
+  color: white;
+  text-align: center;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
 .section_heading{
     text-align: center;
     letter-spacing: .2rem;
