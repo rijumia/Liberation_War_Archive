@@ -33,7 +33,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 
@@ -94,9 +94,13 @@ body {
   justify-content: center;
   align-items: center;
 }
-footer {
-    background-color: #343a40;
+.footer_section {
+    background: #ef4e4e9b url(../img/hero.jpg) no-repeat center center/cover;
+    background-blend-mode: multiply;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px 0;
   }
+.footer_section i{
+  margin-right: .3rem;
+}
